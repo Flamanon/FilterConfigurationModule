@@ -1,4 +1,4 @@
-### This repository is only for the tech literate. Usage of this requires modification of files in [SillyTavern](https://github.com/SillyTavern/SillyTavern), proceed with the below instructions at your own risk. 
+### :warning:This repository is only for the tech literate. Usage of this requires modification of files in [SillyTavern](https://github.com/SillyTavern/SillyTavern), proceed with the below instructions at your own risk. 
 
 ## What is this module and how to use this?
 - # The what:

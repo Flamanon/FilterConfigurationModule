@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Zlaude</title>
+    <link href="//db.onlinewebfonts.com/c/56bd6cd7c8d4b467838b5b2971fd6ee5?family=HarmoniaSansW01-Semibold" rel="stylesheet" type="text/css"/>
+    <style>
+        body {
+            font-family: 'HarmoniaSansW01-Semibold';
+            background-color: #ffd17d;
+        }
+
+        .header {
+            font-size: 32px;
+            text-align: left;
+            margin-top: 20px;
+            margin-left: 20px;
+            font-weight: bold;
+        }
+
+        .subheader {
+            font-size: 24px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .type-bar {
+            margin-left: 20px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 25px;
+            padding: 5px 10px;
+            width: 300px;
+       }
+
+        .checkbox-label {
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        .save-button {
+            background-color: #1E90FF;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 10px 20px;
+            margin-top: 10px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Meet Zlaude</div>
+    <div class="subheader">XML tags</div>
+    <input class="type-bar" id="xml-input" type="text" />
+    <div class="checkbox-label">
+        <input type="checkbox" id="remove-tags-text" />
+        Remove the tags and the text between them
+    </div>
+    <div class="checkbox-label">
+        <input type="checkbox" id="remove-tags" />
+        Remove tags
+    </div>
+    <button class="save-button" onclick="saveXMLValues()">Save</button>
+    <div class="subheader">Brackets</div>
+    <input class="type-bar" id="brackets-input" type="text" />
+    <button class="save-button" onclick="saveBracketValues()">Save</button>
+    <div class="subheader">Individual values</div>
+    <input class="type-bar" id="individual-input" type="text" />
+    <button class="save-button" onclick="saveIndividualValues()">Save</button>
+    <div id="success-message" style="display: none; color: green; margin-left: 20px; margin-top: 10px;"></div>
+    <script src="client.js"></script>
+</body>
+</html>

@@ -13,3 +13,4 @@ First, run the `newconfig.bat` file if you are on Windows. This will install the
 
 ## Now what?
 You will have to make certain changes in the `server.js` file in [SillyTavern](https://github.com/SillyTavern/SillyTavern) and also paste your modified `filterText.js` file in the SillyTavern folder to enable the `filterText` function. A rentry explaining the process will be shared below. 
+***The Rentry***-> https://rentry.co/FilterConfigurationModule

@@ -11,7 +11,7 @@ First, run the `newconfig.bat` file if you are on Windows. This will install the
    - Open the `filterText.js` file and find the duplicate regular expression, and change the name of the regular expression to anything else if you really need it to stay for whatever reason. Make sure to make the appropriate changes in the `.replace(textRe, '')`, `textRe` being the name of the regular expression you just changed.
    - Delete the duplicate const and the `.replace` thingy for it. Yup, just that.
 - The rest is pretty self-explanatory, if you really have no clue about how to use the other parts of the interface, read [this](https://github.com/Flamanon/Zlaude#filter-configuration).
-
+----
 ## Now what?
 You will have to make certain changes in the `server.js` file in [SillyTavern](https://github.com/SillyTavern/SillyTavern) and also paste your modified `filterText.js` file in the SillyTavern folder to enable the `filterText` function. A rentry explaining the process will be shared below. 
 ***The Rentry***-> https://rentry.co/FilterConfigurationModule
